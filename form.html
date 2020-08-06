@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Long Multi-Step Form</title>
+        <link rel="stylesheet" href="css/form/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/vendor.css">
+		<link rel="stylesheet" href="css/form-elements.css">
+
+
+
+
+    </head>
+
+    <body>
+
+
+
+		<!-- Multi Step Form -->
+		<div class="msf-container">
+	        <div class="container">
+	        	<div class="row">
+	                <div class="col-sm-12 msf-title">
+	                    <h3>Fill In The Form</h3>
+	                    <p>Please complete the form below to get instant access to our platform and all its features:</p>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-12 msf-form">
+
+	                    <form role="form" action="" method="post" class="form-inline">
+
+	                    	<fieldset style="color: #aaa;">
+	            				<h4>Introduction <span class="step">(Step 1 / 7)</span></h4>
+	            				<div class="form-group">
+				                    <label for="first-name">First Name:</label><br>
+				                    <input type="text" name="first-name" class="first-name form-control" id="first-name">
+				                </div>
+				                <div class="form-group">
+				                    <label for="last-name">Last Name:</label><br>
+				                    <input type="text" name="last-name" class="last-name form-control" id="last-name">
+				                </div>
+				                <div class="form-group">
+				                    <label for="height">Height:</label><br>
+				                    <input type="text" name="height" class="height form-control" id="height">
+				                </div>
+				                <div class="form-group">
+				                    <label for="weight">Weight:</label><br>
+				                    <input type="text" name="weight" class="weight form-control" id="weight">
+				                </div>
+	            				<br>
+	            				<button type="button" class="btn btn-next">Next <i class="fa fa-angle-right"></i></button>
+	            			</fieldset>
+
+
+	               
+
+
+	            			<fieldset style="color: #aaa;">
+	            				<h4>Why You Want To Join <span class="step">(Step 6 / 7)</span></h4>
+	            				<div class="form-group">
+									<label for="why-join">Tell us why you want to join our application:</label><br>
+				                    <textarea name="why-join" class="why-join form-control" id="why-join"></textarea>
+				                </div>
+	            				<br>
+	            				<button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+	            				<button type="button" class="btn btn-next">Next <i class="fa fa-angle-right"></i></button>
+	            			</fieldset>
+
+	            			<fieldset style="color: #aaa;">
+	            				<h4>Other Form Elements <span class="step">(Step 7 / 7)</span></h4>
+				                <div class="radio-buttons-1">
+				                	<p>Radio Buttons 1:</p>
+					                <label class="radio-inline">
+					                	<input type="radio" name="radio-buttons-1-options" value="radio-buttons-1-option-1"> Option 1
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="radio-buttons-1-options" value="radio-buttons-1-option-2"> Option 2
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="radio-buttons-1-options" value="radio-buttons-1-option-3"> Option 3
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="radio-buttons-1-options" value="radio-buttons-1-option-4"> Option 4
+					                </label>
+								</div>
+				                <div class="radio-buttons-2" style="color: #aaa;">
+									<p>Radio Buttons 2:</p>
+					                <label class="radio-inline">
+					                	<input type="radio" name="radio-buttons-2-options" value="radio-buttons-2-option-1"> Option 1
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="radio-buttons-2-options" value="radio-buttons-2-option-2"> Option 2
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="radio-buttons-2-options" value="radio-buttons-2-option-3"> Option 3
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="radio-buttons-2-options" value="radio-buttons-2-option-4"> Option 4
+					                </label>
+								</div>
+	            				<br>
+	            				<div class="checkboxes-1" style="color: #aaa;">
+	            					<p>Checkboxes 1:</p>
+					                <label class="checkbox-inline">
+					                	<input type="checkbox" name="checkboxes-1-options" value="checkboxes-1-option-1"> Option 1
+					                </label>
+					                <label class="checkbox-inline">
+					                	<input type="checkbox" name="checkboxes-1-options" value="checkboxes-1-option-2"> Option 2
+					                </label>
+					                <label class="checkbox-inline">
+					                	<input type="checkbox" name="checkboxes-1-options" value="checkboxes-1-option-3"> Option 3
+					                </label>
+					                <label class="checkbox-inline">
+					                	<input type="checkbox" name="checkboxes-1-options" value="checkboxes-1-option-4"> Option 4
+					                </label>
+								</div>
+								<div class="checkboxes-2" style="color: #aaa;">
+	            					<p>Checkboxes 2:</p>
+					                <label class="checkbox-inline">
+					                	<input type="checkbox" name="checkboxes-2-options" value="checkboxes-2-option-1"> Option 1
+					                </label>
+					                <label class="checkbox-inline">
+					                	<input type="checkbox" name="checkboxes-2-options" value="checkboxes-2-option-2"> Option 2
+					                </label>
+					                <label class="checkbox-inline">
+					                	<input type="checkbox" name="checkboxes-2-options" value="checkboxes-2-option-3"> Option 3
+					                </label>
+					                <label class="checkbox-inline">
+					                	<input type="checkbox" name="checkboxes-2-options" value="checkboxes-2-option-4"> Option 4
+					                </label>
+								</div>
+	            				<br>
+	            				<div class="selects-1">
+									<p>Select 1:</p>
+					                <select class="form-control" name="select-1">
+					                	<option value="1">Option 1</option>
+					                	<option value="2">Option 2</option>
+					                	<option value="3">Option 3</option>
+					                	<option value="4">Option 4</option>
+					                </select>
+								</div>
+								<div class="selects-2">
+									<p>Select 2:</p>
+					                <select class="form-control" name="select-2">
+					                	<option value="1">Option 1</option>
+					                	<option value="2">Option 2</option>
+					                	<option value="3">Option 3</option>
+					                	<option value="4">Option 4</option>
+					                </select>
+								</div>
+	            				<br>
+	            				<button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+	            				<button type="submit" class="btn">Submit</button>
+	            			</fieldset>
+
+	                    </form>
+
+	                </div>
+	            </div>
+			</div>
+		</div>
+
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script >
+			
+function scroll_to_class(chosen_class) {
+	var nav_height = $('nav').outerHeight();
+	var scroll_to = $(chosen_class).offset().top - nav_height;
+
+	if($(window).scrollTop() != scroll_to) {
+		$('html, body').stop().animate({scrollTop: scroll_to}, 1000);
+	}
+}
+
+
+jQuery(document).ready(function() {
+
+	/*
+	    Fullscreen background
+	*/
+	$.backstretch("img/1.jpg");
+
+	/*
+	    Multi Step Form
+	*/
+	$('.msf-form form fieldset:first-child').fadeIn('slow');
+	
+	// next step
+	$('.msf-form form .btn-next').on('click', function() {
+		$(this).parents('fieldset').fadeOut(400, function() {
+	    	$(this).next().fadeIn();
+			scroll_to_class('.msf-form');
+	    });
+	});
+	
+	// previous step
+	$('.msf-form form .btn-previous').on('click', function() {
+		$(this).parents('fieldset').fadeOut(400, function() {
+			$(this).prev().fadeIn();
+			scroll_to_class('.msf-form');
+		});
+	});
+	
+	
+});
+
+		</script>
+
+    </body>
+
+</html>
